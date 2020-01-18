@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TitleContainerComponent } from './title-container/title-container.component';
 import { MainComponent } from './main/main.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainComponent } from './main/main.component';
     HeaderComponent,
     NavbarComponent,
     TitleContainerComponent,
-    MainComponent
+    MainComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

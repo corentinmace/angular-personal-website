@@ -23,3 +23,15 @@ nav {
   padding-top: 30px;
   }
 }
+
+.scrolled {
+  nav {
+    background-color: white;
+    transition: all 0.5s ease-out;
+  }
+  a {
+    color: #191919;
+    margin-top: -15px;
+    transition: all 0.5s ease-out;
+  }
+}

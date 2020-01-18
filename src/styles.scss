@@ -1,5 +1,12 @@
+$black : #191919;
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
+}
+
+.background-black {
+  background-color: $black;
+  color: white;
 }

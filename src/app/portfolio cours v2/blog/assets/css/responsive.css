@@ -1,0 +1,41 @@
+/* Phone */
+
+@media only screen and (max-width: 1240px) {
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 2.5em;
+      margin: 15px;
+      padding-top: 30px;
+    }
+
+    .title-container {
+    display: flex;
+    flex-flow: column;
+    color: white;
+    justify-content: center;
+    height: 75vh;
+    width: 65%;
+    margin: auto;
+  }
+
+  .title-container__title h1 {
+    font-size: 4em;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .title-container__title h2 {
+    font-size: 2.5em;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .corentin {
+    display: none;
+  }
+  .corentin-responsive {
+    display: block;
+  }
+}

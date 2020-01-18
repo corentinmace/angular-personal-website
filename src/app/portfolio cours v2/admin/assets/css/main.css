@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#adminPage {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/photo/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.formulaire {
+  display: flex;
+  justify-content: center;
+}
+.formulaire input[type=text], textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  height: 15px;
+  background-color: transparent;
+}
+textarea {
+  margin-bottom: -4px;
+
+}
+.formulaire #sendButton {
+  background-color: #000;
+  border: 0.5px solid white;
+  border-radius: 30px;
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+  color: white;
+}
+
+.sendButton {
+  background-color: #000;
+  border: 0.5px solid white;
+  border-radius: 30px;
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+  color: white;
+}
+
+.container-admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-around;
+}
+
+.comp-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid black; */
+  padding: 17px;
+  height: 50%;
+}
+
+.comp-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.comp-inner input{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  height: 15px;
+  background-color: transparent;
+}
+
+.navAdmin {
+
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  padding: 50px;
+}
+
+.navAdmin__container {
+  display: flex;
+}
+
+.navAdmin__container img {
+  max-width: 20px;
+}
+
+.navAdmin a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#message-container h3 {
+  font-size: 100%;
+  margin: 0;
+}
+
+
+#message-container p {
+  font-size: 80%;
+  margin: 0;
+}
+
+#message-container {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  width: 80%;
+  justify-content: center;
+  margin: 15px;
+  padding: 10px;
+}
+
+.message-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.message-container h5 {
+  text-decoration: underline;
+}
+
+#admin_page_main {
+  max-width: 80%;
+  margin-left: 15%;
+}
+
+
+#admin_page_main textarea {
+  width: 750px;
+  height: 250px;
+}
