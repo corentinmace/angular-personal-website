@@ -24,13 +24,15 @@
             "tsConfig": "tsconfig.app.json",
             "aot": false,
             "assets": [
-              "src/favicon.ico",
+              "src/assets/favicon.png",
               "src/assets"
             ],
             "styles": [
               "src/styles.scss"
             ],
             "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/js/scrollnav.js"
             ]
           },
           "configurations": {

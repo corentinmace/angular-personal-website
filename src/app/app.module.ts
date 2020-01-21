@@ -8,6 +8,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { TitleContainerComponent } from './title-container/title-container.component';
 import { MainComponent } from './main/main.component';
 import { AboutComponent } from './about/about.component';
+import { CompetenceComponent } from './competence/competence.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AboutComponent } from './about/about.component';
     NavbarComponent,
     TitleContainerComponent,
     MainComponent,
-    AboutComponent
+    AboutComponent,
+    CompetenceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

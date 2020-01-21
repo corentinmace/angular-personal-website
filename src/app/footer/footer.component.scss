@@ -1,0 +1,33 @@
+
+.footer-container {
+  min-height: 30vh;
+  width: 65vh;
+  margin: auto;
+}
+.footer-container__title h2 {
+  padding-top: 30px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 7px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+.footer-container__title h3 {
+  padding-top: 30px;
+  color: white;
+  font-size: 1em;
+  font-weight: 200;
+  letter-spacing: 3px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-container__images {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 45px;
+  flex-wrap: wrap;
+}
