@@ -32,7 +32,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "src/js/scrollnav.js"
+              "src/assets/js/scrollnav.js"
             ]
           },
           "configurations": {
